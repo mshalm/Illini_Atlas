@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Illini Atlas</string>
+    <string name="button_send">Search</string>
+    <string name="button_display">Next Floor</string>
+    <string name="button_enter">Enter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Illini Atlas</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="title_activity_display_message">Illini Atlas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="BuildingTitle">Enter a building name</string>
+    <string name="title_activity_building_search">Illini Atlas</string>
+    <string name="Building_Search_Title">What room are you going to?</string>
+    <string name="Building_Search_Two">What classroom are you nearest to?</string>
+    <string name="Building_Search_Not_Found">Room number not found? Click here for a set of floor plans.</string>
+    <string name="RoomNumber">Enter a Room #.</string>
+    <string name="FloorNumber">Enter a Floor number.</string>
+    <string name="title_activity_final_class">Illini Atlas</string>
+    <string name="title_activity_bitmap_display">Illini Atlas</string>
+    <string name="Map_Display">The map of your needed floor.</string>
+    <string name="Dual_Display_Text">Click here for the next floor.</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_only_image_display">Illini Atlas</string>
+    <string name="title_activity_display_image_only">Illini Atlas</string>
+    <string name="title_activity_dual_image_display">Illini Atlas</string>
+    <string name="title_activity_no_path">Illini Atlas</string>
+    <string name="GetFloorPlans">Get Floor Plans</string>
+    <string name="GoogleNav">Get Google Maps Directions</string>
+    <string name="RoomDirections">Get Room Directions</string>
+	<string name="OrangeToBlue">Follow the line from Orange to Blue.</string>
+</resources>

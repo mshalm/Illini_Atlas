@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="iefx.testing.myapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mapapp_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="iefx.testing.myapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="iefx.testing.myapp.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="iefx.testing.myapp.BuildingSearch"
+            android:label="@string/title_activity_building_search"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="iefx.testing.myapp.FinalClass"
+            android:label="@string/title_activity_final_class"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="iefx.testing.myapp.BitmapDisplay"
+            android:label="@string/title_activity_bitmap_display"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+        </activity>
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="iefx.testing.myapp.OnlyImageDisplay"
+            android:label="@string/title_activity_only_image_display"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="iefx.testing.myapp.DisplayImageOnly"
+            android:label="@string/title_activity_display_image_only"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="iefx.testing.myapp.DualImageDisplay"
+            android:label="@string/title_activity_dual_image_display"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="iefx.testing.myapp.NoPath"
+            android:label="@string/title_activity_no_path"
+            android:parentActivityName="iefx.testing.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="iefx.testing.myapp.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+http://www.fs.uiuc.edu/ada/0116PlanG.html
+Ground Floor
+&Rooms
+345.960,432.042,372.936,443.181 0008A
+427.680,442.122,448.047,453.261 0008
